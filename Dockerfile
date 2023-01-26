@@ -35,7 +35,9 @@ RUN apk add                     \
     php8-bcmath                 \
     php8-opcache                \
     php8-pecl-apcu              \
-    php8-exif                   #
+    php8-exif                   \
+    python3                     \
+    py3-virtualenv              #
 
 # fix a dompdf problem...
 RUN apk add --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/v3.13/community/ gnu-libiconv=1.15-r3
