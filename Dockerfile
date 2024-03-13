@@ -37,6 +37,7 @@ RUN apk add                     \
     php8-opcache                \
     php8-pecl-apcu              \
     php8-exif                   \
+    php8-ldap                   \
     python3                     \
     py3-virtualenv              #
 
